@@ -1,15 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
 import UserList from "./UserList/UserList";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div className="App">
-      <h1>workshop API</h1>
-      <div>
-        <UserList />
-      </div>
-    </div>
+    <>
+      <UserList />
+    </>
   );
 }
 
